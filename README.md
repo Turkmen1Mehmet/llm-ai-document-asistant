@@ -52,6 +52,11 @@ streamlit run app.py
 
 Arayüzde "Gelişmiş Ayarlar" bölümünden semantik parçalama özelliğini açıp kapatabilir ve şu parametreleri ayarlayabilirsiniz:
 
+LLaMA modelini indirin ve uygun klasöre yerleştirin.
+
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/
+İndirmeniz gereken dosya: "llama-2-7b-chat.Q4_K_M.gguf
+
 - **Parça Boyutu**: Oluşturulacak metin parçalarının maksimum boyutu
 - **Parça Örtüşmesi**: Ardışık parçalar arasındaki örtüşme miktarı
 - **Semantik Parçalama**: Anlamsal parçalama özelliğini açıp kapatma 
